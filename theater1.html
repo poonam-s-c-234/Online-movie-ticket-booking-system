@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belagavi-INOX Theater</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	
+</head>
+<body>
+    <body style="background-color:whitesmoke;">	
+
+        <br><br>
+        <h1 style="text-align: center;color:blue;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"> Now Running</h1>
+     
+        <br>
+        <div class="container-fluid" id="maincontainer">
+        <div align="center" id="row1" class="row">
+                <div class="col-md-4" style="padding-bottom: 15px;">
+                <img src="img1.jpeg"><br>
+                <div id="pro-info">
+                  
+                  <br>     <p class="product-name">Movie Name - 355</p><p class="product-price">Ticket Price-220</p>
+                  <p class="product-price">Show Time--Dates:12,13,16 Janauary </p>
+                  <p class="product-price">Time--9.00AM to 12 PM . 2PM to 5PM</p>
+                    <p>Liked by  <span id="display1">0</span> People</p>		
+                    <button onclick="window.location.href='book.html';" class="btn btn-secondary" id="btn1">BOOK</button>	
+                    <button class="btn btn-secondary" id="likebtn1">LIKE</button>					
+                </div>
+                </div>
+
+    <script type="text/javascript">
+      var count1 = 0;
+      var btn = document.getElementById("likebtn1");
+      var disp = document.getElementById("display1");
+      btn.onclick = function () {
+        count1++;
+        disp.innerHTML = count1;
+      }
+      </script>
+              
+                <div class="col-md-4" style="padding-bottom: 15px;">
+                <img src="img9.jpeg";>
+                    <div id="pro-info">
+                      <br>        <p class="product-name">Movie Name - Badava Rascal</p><p class="product-price">Ticket Price-200</p>	
+                      <p class="product-price">Show Time--Dates:12,14,15 Janauary </p>
+                      <p class="product-price">Time--9.30PM to 12.30 PM. 6PM to 9PM</p>	
+                    <p>Liked by  <span id="display2">0</span> People</p>			
+                    <button onclick="window.location.href='book.html';" class="btn btn-secondary" id="btn1">BOOK</button>	
+                    <button class="btn btn-secondary" id="likebtn2">LIKE</button>						
+                    </div>
+                </div>  
+    
+                
+    <script type="text/javascript">
+      var count2 = 0;
+      var btnclick = document.getElementById("likebtn2");
+      var dispclick = document.getElementById("display2");
+      btnclick.onclick = function () {
+        count2++;
+        dispclick.innerHTML = count2;
+      }
+      </script>
+
+
+                <div class="col-md-4" style="padding-bottom: 15px;">
+                    <img src="img10.jpeg";>
+                        <div id="pro-info">
+                          <br>        <p class="product-name">Movie Name-DNA</p><p class="product-price">Ticket Price-190</p>	
+                          <p class="product-price">Show Time--Dates:13,14,15 Janauary </p>
+                          <p class="product-price">Time--1PM to 4PM .    5.30PM to 8.30PM</p>
+                        <p>Liked by  <span id="display3">0</span> People</p>			
+                        <button onclick="window.location.href='book.html';" class="btn btn-secondary" id="btn1">BOOK</button>	
+                        <button class="btn btn-secondary" id="likebtn3">LIKE</button>						
+                        </div>
+                </div>  
+            
+                <script type="text/javascript">
+                  var count3 = 0;
+                  var btnadd = document.getElementById("likebtn3");
+                  var dispadd = document.getElementById("display3");
+                  btnadd.onclick = function () {
+                    count3++;
+                    dispadd.innerHTML = count3;
+                  }
+                  </script>
+
+        </div>    
+    </div>
+    <hr>
+    <br><br>
+   
+</body>
+    </body>
+</html>
